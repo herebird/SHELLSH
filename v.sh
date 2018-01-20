@@ -29,59 +29,8 @@ if [[ $ether = "" ]]; then
         ether=eth0
 fi
 
-#source file
-	source="http://moth3r-fuck3r.ga/admin/pages/admin/moth3r"
-
 # go to root
 cd
-
-#password
-clear
-echo ""
-        echo -e "\e[031;1m     
-                       
-    =============== OS-32 & 64-bit ================
-                                                   									
-            AUTOSCRIPT CREATED BY D1NFUCK3R         
-           -----------About Us------------  
-     					
-                  LINE : BeerWaiting   
-                                
-                  FACEBOOK : Weerawat.				                        				 
-                  FB Groups : ดิ้นจนไข่ถลอก          					 
-      ..........................................
-
-                    SCRIPT V.Pro 
-                 true: 90 wallet = 1IP        	       
-                   *****************           				  
-                    TRUE WALLET             	    
-                   =================              
-                   No   : 0969636900                
-                   Name : The'MarCusy             
-       ..........................................                                                    								   
-    =============== OS-32 & 64-bit ================
-                                    
-                 Thank You For Choice Us"
-	echo ""
-	echo -e "\e[034;1m----SCRIPT V. Free"
-	echo ""
-	echo -e "\e[032;1m ( รหัสผ่านด้วยครับพี่เทพ )"
-	echo ""
-read -p "๏๏๏โปรดใส่รหัสสำหรับติดตั้งสคลิปนี้.. : " passwds
-wget -q -O /usr/bin/pass http://27.254.81.20/~com/pass.txt
-if ! grep -w -q $passwds /usr/bin/pass; then
-clear
-echo ""
-echo ""
-echo " เสียใจด้วยพี่เทพ รหัสผิดว่ะ ถ้าไม่มีรหัสติดต่อแอดมินฯ ไข่ถลอก"
-echo ""
-echo " ดิ้นวันล่ะนิด จิตแจ่มใส ดิ้นวันล่ะนิด ดิ้นวันล่ะหน่อย ไข่จะได้ไม่ถลอก 555"
-echo ""
-echo ""
-rm /usr/bin/pass
-rm v8x64.sh
-exit
-fi
 
 clear
 
